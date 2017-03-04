@@ -1,0 +1,129 @@
+body {
+	background-image: url(../imagenes/map-image.png);
+	background-color: black;
+}
+
+nav {
+	z-index: 1;
+}
+
+nav a {
+	color: white;
+}
+
+nav a:hover {
+	color: orange;
+}
+
+nav a:active {
+	color: orange;
+}
+
+.panelconfirm {
+	margin-left: 5px;
+}
+
+.paneloo {
+	background-color: (0,255,123);
+}
+
+.container > .panel-default, .container > .panel {
+	border-color: transparent;
+	border: 0px solid transparent;
+	border-style: none;
+}
+
+.panel-default > .panel-heading {
+	background-color: transparent;
+}
+
+.error {
+color: #F00;
+font-style: italic;
+font-size: 10px;
+visibility: hidden;
+} 
+
+#formcal {
+	font-size: 12px;
+}
+
+.calendario td {
+	height: 150px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: rgba(0,0,0,0.1);
+}
+
+.disponible {
+	background-color: green;
+	opacity: 0.5;
+	visibility: hidden;
+}
+
+#lun5a8 {
+	background-color: green;
+	opacity: 0.5;
+	visibility: hidden;
+}
+
+
+#mar5a8, #mie5a8, #jue5a8, #vie5a8, #sab5a8, #dom5a8, #lun8a12, #mar8a12, #mie8a12, #jue8a12, #vie8a12, #sab8a12, #dom8a12 {
+	background-color: green;
+	opacity: 0.5;
+	visibility: hidden;
+}
+
+.navbar-toggle {
+	
+}
+.navbar-toggle span {
+	border:1px solid white;
+}
+
+#datosdatos {
+	float: center;
+	text-align: center;
+	color: white;
+}
+
+#iniciar {
+	visibility: hidden;
+}
+
+ .affix {
+    top: 0;
+    width: 100%;
+    -webkit-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+    background-color: #F44336;
+    border-color: #F44336;
+}
+
+.affix a {
+    color: #fff !important;
+    padding: 15px !important;
+    -webkit-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+
+.affix-top a {
+    padding: 25px !important;
+}
+
+
+
+.ui-datepicker tr {
+  	height: 20px;
+  	margin: 0;
+  	padding: 0;
+}
+
+.ui-datepicker-prev .ui-icon {
+	display: none;
+}
+
+/*.resultados {
+	visibility: hidden;
+}
+*/
